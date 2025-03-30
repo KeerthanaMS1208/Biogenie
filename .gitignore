@@ -1,0 +1,15 @@
+# Python virtual environment
+venv/
+__pycache__/
+
+# Environment variables and config secrets
+.env
+*.env
+token.env
+
+# OS-specific clutter
+.DS_Store
+Thumbs.db
+
+# Bytecode
+*.pyc
