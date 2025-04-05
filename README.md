@@ -7,7 +7,7 @@ BioGenie is a lightweight biology Q&A assistant powered by Hugging Face models a
 ##  Features
 
 - ✅ Ask biology questions like "What is DNA?" or "Explain photosynthesis."
-- ✅ Uses Hugging Face's `flan-t5-base` model for fast responses.
+- ✅ Uses Hugging Face's `mistralai/Mistral-7B-Instruct-v0.1` model for fast responses.
 - ✅ Built with FastAPI backend and HTML/JS frontend.
 - ✅ Easily customizable and extendable.
 
