@@ -27,3 +27,8 @@ def ask(question: Question):
     except Exception as e:
         print("❌ ERROR:", str(e))
         return {"error": str(e)}
+
+@app.get("/")
+def root():
+    return {"message": "Hello from BioGenie"}
+
